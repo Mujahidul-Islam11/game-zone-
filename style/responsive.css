@@ -1,0 +1,25 @@
+@media  screen and (max-width:425px) {
+    .nav-container, .menu{
+        flex-direction: column;
+    }
+    .logo{
+        width: 50%;
+        align-items: center;
+    }
+    .menu{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .nav-container, .menu{
+        flex-direction: column;
+    }
+   .logo>img{
+    align-items: center;
+    margin: 0 0 0 80px;
+
+   }
+    .menu{
+        margin: 0 auto;
+    }
+}

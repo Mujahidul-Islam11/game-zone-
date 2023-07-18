@@ -1,0 +1,72 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Work+Sans:wght@700&display=swap');
+
+nav{
+    width: 100%;
+    height: 130px;
+}
+
+.nav-container{
+width: 90%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.logo, h3{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'work sans';
+}
+.gamer-logo{
+    width: 86px;
+    height: 40px;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+    padding: 10px;
+}
+.menu, a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3C354F;
+}
+.Follow-container{
+   width: 262px;
+   height: 56px;
+   display: flex;
+   align-items: center;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+.youtube{
+    width: 33px;
+    height: 24px;
+    margin: 0 0 0 24px;
+}
+.tiktok{
+    margin: 0 0 0 24px;
+}
+.Follow{
+    width: 100%;
+    align-items: center;
+
+}
+.Follow, a{
+    margin: 0 0 0 24px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
