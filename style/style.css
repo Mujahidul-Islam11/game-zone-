@@ -6,28 +6,24 @@ nav{
 }
 
 .nav-container{
-width: 90%;
-margin: 0 auto;
 display: flex;
-justify-content: space-between;
-align-items: center;
+justify-content: space-around;
 }
 .logo{
-    width: 50%;
     display: flex;
-    align-items: center;
 }
-.logo, h3{
+.gamer-logo{
+    width: 86px;
+    height: 56px;
+    margin: 40px 0 0 0;
+}
+.gamer-title{
     font-size: 45px;
     font-weight: 700;
     font-family: 'work sans';
 }
-.gamer-logo{
-    width: 86px;
-    height: 40px;
-}
+
 .menu{
-    width: 50%;
     display: flex;
     justify-content: space-between;
     gap: 32px;
@@ -69,4 +65,220 @@ align-items: center;
     font-weight: 500;
     display: flex;
     justify-content: center;
+}
+/* navigation bar complete */
+/* .hide{
+    display: none;
+} */
+body{
+    font-family: 'work sans';
+}
+
+.banner-container{
+    background-image: url('/images/Group\ 14.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: top left;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-container img{
+    height: 500px;
+    width: 550px;
+}
+
+.play{
+    font-size: 40px;
+    font-weight: 600 ;
+   margin: 0 0 0 0;
+}
+.heading-title{
+    font-size: 70px;
+    font-weight: 700;
+    padding: 13px 30px 13px 30px;
+    color: blueviolet;
+   margin: 0 0 0 0;
+
+}
+.btn1{
+background: #FF42A5;
+padding: 13px 30px 13px 30px;
+border-radius: 48px;
+margin: 10px;
+border: 0;
+color:white;
+
+}
+.btn2{
+background:#4EC5F7 ;
+padding: 13px 30px 13px 30px;
+border-radius: 48px;
+margin: 10px;
+border: 0;
+color: white;
+
+}
+.gamer-heading{
+    font-size: 45px;
+    font-weight: 700;
+    color: blueviolet;
+    margin:  60px 0 0 50px;
+}
+.an{
+    font-size: 18px;
+    font-weight: 500;
+    color: #534C64;
+}
+.button-primary{
+    background: #FF42A5;
+    padding: 13px 30px 13px 30px;
+    border-radius: 48px;
+    margin: 10px 0 10px 230px;
+    border: 0;
+    color:white;
+}
+.purpose{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    margin: 0 0 0 240px;
+}
+.unleash{
+    color: #534C64;
+    margin: 0 0 0 60px;
+}
+.section-container{
+    display: flex;
+}
+.collection-heading{
+   margin: 100px 0 0 332px;
+   font-size: 48px;
+   font-weight: 700;
+}
+.collection-paragraph{
+    margin: 0 0 0 450px;
+}
+.pictures{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.pictures-p{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.pictures-p, p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.size{
+    width: 342px;
+    height: 400px;
+}
+.section-middle-container{
+    display: flex;
+    align-items: center;
+    margin: 200px 0 0 0;
+}
+.middle-heading{
+    font-size: 48px;
+    font-weight: 600;
+}
+.tom{
+    margin: -300px 0 0 0;
+}
+.section-last{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin: 197px 0 0 0;
+    align-items: center;
+}
+.section-last:hover .a{
+    border-radius: 45px;
+    border: 1px solid red;
+    
+}
+
+.section-last:hover .b{
+    border-radius: 45px;
+    border: 1px solid red;
+    
+}
+.section-last:hover .c{
+    border-radius: 45px;
+    border: 1px solid red;
+    
+}
+.section-last:hover .d{
+    border-radius: 45px;
+    border: 1px solid red;
+    
+}
+.section-last:hover .e{
+    border-radius: 45px;
+    border: 1px solid red;
+    
+}
+.section-last:hover .f{
+    border-radius: 45px;
+    border: 1px solid red;
+    
+}
+.section-last:hover .g{
+    border-radius: 45px;
+    border: 1px solid red;
+    
+}
+.section-last:hover .h{
+    border-radius: 45px;
+    border: 1px solid red;
+    
+}
+.section-last:hover .m{
+    border-radius: 45px;
+    border: 1px solid red;
+    
+}
+.footer-container{
+    background-color: #0B0223;
+    height: 636px;
+    margin: 129px 0 0 0;
+}
+.footer-logo{
+    display: flex;
+  justify-content: center;
+  
+
+}
+.footer-content{
+    display: flex;
+   justify-content: center;
+}
+.footer-des{
+    color: white;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 66px 0 0 0;
+}
+.footer-acnt{
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    margin: 74px 0 0 0;
+}
+.copywritte{
+    margin: 28px 0 0 440px;
+}
+.copywritte, p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #534C64;
 }

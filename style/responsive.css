@@ -1,25 +1,128 @@
-@media  screen and (max-width:425px) {
-    .nav-container, .menu{
+
+@media screen and (max-width:768px) {
+    .nav-container, .menu, .section-container, .section-middle-container{
         flex-direction: column;
     }
-    .logo{
-        width: 50%;
+    .menu{
         align-items: center;
     }
-    .menu{
-        margin: 0 auto;
+    .logo{
+       margin: 0 auto;
     }
-}
-@media screen and (max-width:768px) {
-    .nav-container, .menu{
-        flex-direction: column;
-    }
-   .logo>img{
-    align-items: center;
-    margin: 0 0 0 80px;
 
-   }
-    .menu{
-        margin: 0 auto;
+.banner-container{
+    margin: 330px 0 0 0;
+}
+.banner-container img{
+    width: 400px;
+    height: 450px;
+} 
+.toons{
+    width: 700px;
+    height: 750px;
+}
+.section-text{
+    align-items: center;
+}
+.collection-heading{
+    margin: 40px 0 0 40px;
+}
+.purpose{
+    margin: 0 0 0 0;
+}
+.unleash{
+    margin: 0;
+}
+.button-primary{
+    margin: 0;
+}
+.gamer-heading{
+margin: 0;
+}
+.collection-paragraph{
+    margin: 0 0 0 140px;
+}
+.pictures{
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px 0 0 0;
+    gap: 20px;
+    } 
+    .pictures-p{
+        grid-template-columns: repeat(2,1fr);
+        margin: 50px 0 0 0;
     }
+    
+.cowboy{
+    width: 500px;
+    height: 550px;
+    margin: 0 0 0 100px;
+}
+.tom{
+    width: 240px;
+    height: 300px;
+}
+.section-last{
+    grid-template-columns: repeat(3,1fr);
+  
+}
+.copywritte{
+    flex-direction: column;
+    margin: 23px 0 0 160px;
+}
+}   
+@media  screen and (max-width:425px) {
+.nav-container, .menu, .banner-container, .section-container, 
+.section-middle-container, .footer-content{
+    flex-direction: column;
+}
+.menu{
+    align-items: center;
+}
+.logo{
+   margin: 0 auto;
+}
+.banner-container{
+    margin: 330px 0 0 0;
+}
+.banner-container img{
+    width: 400px;
+    height: 450px;
+}
+.toons{
+    width: 400px;
+    height: 450px;
+}
+.section-text{
+    align-items: center;
+}
+.collection-heading{
+    margin: 100px 0 0 30px;
+}
+.collection-paragraph{
+    margin: 0 0 0 5px;
+}
+.pictures{
+grid-template-columns: repeat(1,1fr);
+margin: 50px 0 0 0;
+}
+.pictures-p{
+    grid-template-columns: repeat(1,1fr);
+}
+.cowboy{
+    width: 300px;
+    height: 350px;
+    margin: 0 0 0 50px;
+}
+.tom{
+    width: 160px;
+    height: 200px;
+}
+.section-last{
+    grid-template-columns: repeat(2,1fr);
+  
+}
+.copywritte{
+    flex-direction: column;
+    margin: 23px 0 0 100px;
+}
 }
