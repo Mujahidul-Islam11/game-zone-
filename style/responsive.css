@@ -48,10 +48,6 @@ margin: 0;
     margin: 50px 0 0 0;
     gap: 20px;
     } 
-    .pictures-p{
-        grid-template-columns: repeat(2,1fr);
-        margin: 50px 0 0 0;
-    }
     
 .cowboy{
     width: 500px;
@@ -121,8 +117,11 @@ nav{
 grid-template-columns: repeat(1,1fr);
 margin: 50px 0 0 0;
 }
-.pictures-p, .load{
+.pictures-p{
     grid-template-columns: repeat(1,1fr);
+}
+.load{
+    grid-template-columns: repeat(1, 1fr);
 }
 .cowboy{
     width: 300px;
