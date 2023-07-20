@@ -43,7 +43,7 @@ margin: 0;
 .collection-paragraph{
     margin: 0 0 0 140px;
 }
-.pictures{
+.load{
     grid-template-columns: repeat(2,1fr);
     margin: 50px 0 0 0;
     gap: 20px;
@@ -66,6 +66,10 @@ margin: 0;
     grid-template-columns: repeat(3,1fr);
   
 }
+.section-last-one{
+grid-template-columns: repeat(3,1fr);
+}
+
 .copywritte{
     flex-direction: column;
     margin: 23px 0 0 160px;
@@ -75,6 +79,9 @@ margin: 0;
  .nav-container, .menu, .banner-container, .section-container, 
 .section-middle-container, .footer-content{ 
     flex-direction: column;
+}
+.footer-container{
+    width: 100%;
 }
 nav{
     width: 100%;
@@ -114,7 +121,7 @@ nav{
 grid-template-columns: repeat(1,1fr);
 margin: 50px 0 0 0;
 }
-.pictures-p{
+.pictures-p, .load{
     grid-template-columns: repeat(1,1fr);
 }
 .cowboy{
@@ -146,7 +153,7 @@ margin: 50px 0 0 0;
   
 }
 .copywritte{
-    flex-direction: column;
-    margin: 23px 0 0 100px;
-} 
+    display: flex;
+    justify-content: center;
+}
 }
