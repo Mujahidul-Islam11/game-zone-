@@ -9,11 +9,12 @@
     .logo{
        margin: 0 auto;
     }
-
 .banner-container{
+    flex-direction: column;
     margin: 330px 0 0 0;
 }
 .banner-container img{
+    margin: 280px 0 0 0;
     width: 400px;
     height: 450px;
 } 
@@ -71,9 +72,12 @@ margin: 0;
 }
 }   
 @media  screen and (max-width:425px) {
-.nav-container, .menu, .banner-container, .section-container, 
-.section-middle-container, .footer-content{
+ .nav-container, .menu, .banner-container, .section-container, 
+.section-middle-container, .footer-content{ 
     flex-direction: column;
+}
+nav{
+    width: 100%;
 }
 .menu{
     align-items: center;
@@ -85,15 +89,20 @@ margin: 0;
     margin: 330px 0 0 0;
 }
 .banner-container img{
-    width: 400px;
-    height: 450px;
+    width: 300px;
+    height: 350px;
 }
 .toons{
     width: 400px;
     height: 450px;
+
 }
 .section-text{
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.button-primary{
 }
 .collection-heading{
     margin: 100px 0 0 30px;
@@ -113,16 +122,31 @@ margin: 50px 0 0 0;
     height: 350px;
     margin: 0 0 0 50px;
 }
+.middle-heading{
+    font-size: 38px;
+}
+.section-middle{
+    margin: 0 auto;
+}
+.pictures{
+    margin: 0 auto;
+    align-items: center;
+}
 .tom{
     width: 160px;
     height: 200px;
+    margin: -130px 0 0 0;
 }
-.section-last{
+.section-last-one{
+    width: 90%;
+    gap: 30px;
+}
+.section-last, .section-last-one{
     grid-template-columns: repeat(2,1fr);
   
 }
 .copywritte{
     flex-direction: column;
     margin: 23px 0 0 100px;
-}
+} 
 }
